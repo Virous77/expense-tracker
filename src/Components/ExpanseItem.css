@@ -1,0 +1,73 @@
+.main-conta {
+  background-color: midnightblue;
+  max-width: 1240px;
+  margin: auto;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  background-color: silver;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  max-width: 1240px;
+  margin: auto;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.expanse-details {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expanse-price {
+  background-color: black;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.expanse-dates {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  background-color: whitesmoke;
+  padding: 3px 6px;
+  border-radius: 6px;
+  box-shadow: inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+
+.empty-msg {
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 580px) {
+  .expanse-details h2 {
+    font-size: 0.9rem;
+  }
+
+  .expanse-price {
+    font-size: 0.7rem;
+  }
+
+  .expanse-dates {
+    font-size: 0.7rem;
+  }
+
+  header {
+    padding: 1rem;
+  }
+}
